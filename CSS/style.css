@@ -1,0 +1,271 @@
+        * {
+            font-family: "Roboto", sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .nav-link {
+            text-transform: uppercase;
+            transition: all .4s;
+        }
+        
+        .nav-link:active {
+            color: #3957ff;
+            border-bottom: 2px solid #3957ff;
+            padding: 20px;
+        }
+        
+        .nav-link:hover {
+            border-bottom: 2px solid #3957ff;
+            padding: 30px;
+            transition: all .4s;
+            color: #3957ff;
+        }
+        
+        .navbar-brand {
+            text-transform: uppercase;
+            font-size: 25px;
+        }
+        
+        nav {
+            box-shadow: 2px -2px 0px 5px rgba(0, 0, 0, 0.288);
+        }
+        /*Start home*/
+        
+        .home {
+            background-image: url("../Images/im3.jpg");
+            background-size: cover;
+            height: 800px;
+            background-attachment: fixed;
+        }
+        
+        .title::before {
+            content: "____ ";
+        }
+        
+        .title {
+            padding-top: 10em;
+            color: #3957ff;
+        }
+        
+        #main-title {
+            font-size: 60px;
+            font-weight: bold;
+        }
+        
+        .header_button {
+            padding: 12px 20px;
+            font-size: 14px;
+            border: 0.5px solid #16294F;
+            background-color: #16294F;
+            color: white;
+            min-width: 150px;
+        }
+        /*practice card*/
+        
+        .Practicing_area .sub_title {
+            font-size: 30px;
+            font-weight: bold;
+            margin: 30px auto;
+        }
+        
+        .card_icon {
+            color: #001DFF;
+            font-size: 40px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .card {
+            padding: 10px;
+        }
+        
+        .card_button {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .title-pract {
+            text-align: center;
+        }
+        /*Practice cardes*/
+        /*About*/
+        
+        .about {
+            padding-top: 150px;
+        }
+        
+        .c_about {
+            padding: 0px;
+        }
+        
+        .about_img {
+            margin: 0px;
+            padding: 0px;
+            height: 700px;
+        }
+        
+        .card_about {
+            border: 0px;
+            padding: 0px;
+        }
+        
+        .about-card {
+            height: 700px;
+        }
+        
+        .about-card {
+            background-image: url("../Images/im15.png");
+            /* //background-size: cover; */
+            /* // padding: 10px; */
+            margin: 0px;
+            line-height: 1.6;
+            color: white;
+            min-height: 539.5px;
+        }
+        
+        .about-card .title::before {
+            content: "____";
+        }
+        
+        .about-card .title {
+            padding-top: 20px;
+            color: white;
+        }
+        
+        .about-card .about_title {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+        .about-card .text-about {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #ddd;
+        }
+        /* get_qote */
+        
+        .gray {
+            background-color: rgb(223, 228, 250);
+            height: 200px;
+        }
+        
+        .get_qote {
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(223, 228, 250);
+            height: 600px;
+        }
+        
+        .get_qote form {
+            max-width: 60%;
+            margin: 0px auto;
+            background-image: url(../Images/im15.png);
+        }
+        /* Start searching_for */
+        
+        .title-top {
+            margin-top: 150px;
+        }
+        
+        .recent_work .container .inner_header .link {
+            float: right;
+        }
+        
+        .recent_work .container .inner_header .sub_title {
+            display: inline-block;
+        }
+        
+        .recent_work .container .inner_header .link ul li {
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 20px;
+        }
+        
+        .searching_for {
+            margin-top: 150px;
+            background-image: url("../Images/im15.png");
+            min-height: 250px;
+        }
+        /* .searching {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+     */
+        
+        .searching_for .search-btn {
+            background-color: black;
+            color: white;
+            width: 150px;
+            padding: 5px;
+            text-align: center;
+        }
+        
+        .question {
+            margin-right: 400px;
+        }
+        
+        .card-data {
+            background-color: #f2f8f9;
+        }
+        /* end searching_for */
+        /* Start review */
+        
+        .review {
+            margin-top: 150px;
+            background-image: url('../Images/im11.png');
+            background-size: 100% 100%;
+            padding: 55px 0px;
+            text-align: center;
+        }
+        
+        .review-btn {
+            width: 50px;
+            height: 50px;
+            top: 50%;
+            background-color: #112957;
+            color: #fff;
+            border: 0.5px solid rgb(230, 228, 228);
+        }
+        /* End review */
+        /******trend_artical******/
+        
+        .trend_artical {
+            margin-top: 150px;
+        }
+        
+        .trend-body {
+            background-color: #f2f8f9;
+        }
+        
+        .footer {
+            margin-top: 150px;
+            background-image: url("../Images/im14.jpg");
+            background-size: cover;
+        }
+        
+        .footer span {
+            color: #001DFF;
+        }
+        
+        .footer i {
+            color: #f2f8f9;
+            margin: 10px
+        }
+        
+        .footer .copy {
+            padding: 15px;
+        }
+        
+        .footer .copy1 {
+            margin-right: 175px;
+        }
